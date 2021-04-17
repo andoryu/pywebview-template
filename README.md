@@ -1,7 +1,7 @@
-#pywebview-template#
+# pywebview-template #
 A template project to start building out apps with pywebview library using Qt.
 
-##Installation##
+## Installation ##
 1. virtualenv
 1. clone me
 1. install pywebview
@@ -9,14 +9,14 @@ A template project to start building out apps with pywebview library using Qt.
 1. update as required the html, css and js in **assets**
 1. source files live in **src**, one tree for python backend and one for javascript/Typescript
 
-##Python##
+## Python ##
 Start developming modules and packages next to app.py in ./src/python. This file starts the server
 using ./assets/index.html
 
-##Typescript##
+## Typescript ##
 Typescriupt is configured to compile files, to a single destination file in ./assets/js
 
 
-##Notes##
+## Notes ##
 Thanks to the peeps at this URL for the layout CSS:
 https://www.quackit.com/css/flexbox/tutorial/create_a_responsive_flexbox_layout.cfm
