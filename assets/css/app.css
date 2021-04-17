@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+main, header, section, aside, footer {
+    margin: 0;
+    padding: 0px;
+    color: #ffffff;
+}
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background: #03a9f4;
+    height: 3vh;
+}
+
+main {
+    background: #000000;
+    display: flex;
+    flex: 1;
+}
+
+/*  canvas panel */
+main > article {
+    flex: 1;
+    background: #d22b1f;
+}
+
+/*  system actions panel */
+main > nav {
+    flex: 0 0 10vw;
+
+    background: #1f82d2;
+}
+
+/* Logging panel */
+main > aside {
+    flex: 0 0 30vw;
+
+    background: #129a22;
+    visibility: visible;
+}
+
+footer {
+    background: #616161;
+    height: 3vh;
+}
